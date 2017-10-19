@@ -4,6 +4,7 @@ html {
 
 body {
   overflow: hidden;
+  min-width: 320px;
 
   background-color: #030406;
 }
@@ -42,7 +43,7 @@ body {
   -webkit-transform: translateZ(-4px) scale(3);
   transform: translateZ(-4px) scale(3);
 
-  top: 30em;
+  top: 5em;
 
   animation: logo-float 120s ease-out forwards;
 }
@@ -70,11 +71,11 @@ body {
 @keyframes logo-float {
 
   0% {
-    top: 20em;
+    top: 5em;
   }
 
   100% {
-    top: 15em;
+    top: 0;
   }
 
 }
